@@ -14,7 +14,7 @@ Um guia prático e repositório de treinamento focado na implementação de **Pa
 Este repositório funciona como um **laboratório prático hands-on**. Cada módulo de padrão de projeto contém:
 1. **Problema do Mundo Real:** Um cenário prático do dia a dia de desenvolvimento.
 2. **Implementação Limpa:** Solução aplicando o padrão ideal.
-3. **Testes Unitários:** Garantia de funcionamento do comportamento isolado.
+
 
 ---
 
@@ -25,7 +25,7 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 #### 1. Strategy
 * **Ideia chave:** Troca de algoritmos em tempo de execução.
 * **Problema que resolve:** Elimina estruturas extensas de `if/else` ou `switch` ao isolar cada regra de negócio em sua própria classe. Permite adicionar novas regras sem alterar o código existente (**Princípio Aberto/Fechado**).
-* **Exemplo no código:** Calculadora de frete flexível para e-commerce (`DHL`, `Correios`, `Sedex`).
+
 
 
 ---
@@ -35,13 +35,13 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 #### 2. Composite
 * **Ideia chave:** Árvore onde item único e grupo usam a mesma interface.
 * **Problema que resolve:** Permite tratar objetos individuais e coleções de objetos de maneira uniforme em estruturas hierárquicas (tipo pastas e arquivos).
-* **Exemplo no código:** Montagem de caixa de produtos compostos e cálculo de preço total.
+
 
 
 #### 3. Decorator
 * **Ideia chave:** Envelopa o objeto para adicionar recursos sem herança.
 * **Problema que resolve:** Adiciona novas responsabilidades a um objeto de forma dinâmica sem alterar a classe original, evitando explosão de subclasses via herança.
-* **Exemplo no código:** Envio de notificações combinadas (E-mail + SMS + WhatsApp).
+
 
 ---
 
@@ -50,7 +50,7 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 #### 4. Factory Method
 * **Ideia chave:** Delega a instanciação (`new`) para as subclasses.
 * **Problema que resolve:** Desacopla o código principal da criação de objetos concretos, fazendo com que ele dependa apenas de interfaces ou abstrações.
-* **Exemplo no código:** Gerador e exportador de relatórios (`PDF`, `CSV`, `Excel`).
+
 
 ---
 
