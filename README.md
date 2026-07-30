@@ -26,7 +26,7 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 * **Ideia chave:** Troca de algoritmos em tempo de execução.
 * **Problema que resolve:** Elimina estruturas extensas de `if/else` ou `switch` ao isolar cada regra de negócio em sua própria classe. Permite adicionar novas regras sem alterar o código existente (**Princípio Aberto/Fechado**).
 * **Exemplo no código:** Calculadora de frete flexível para e-commerce (`DHL`, `Correios`, `Sedex`).
-* 📁 `src/behavioral/strategy/`
+
 
 ---
 
@@ -36,13 +36,12 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 * **Ideia chave:** Árvore onde item único e grupo usam a mesma interface.
 * **Problema que resolve:** Permite tratar objetos individuais e coleções de objetos de maneira uniforme em estruturas hierárquicas (tipo pastas e arquivos).
 * **Exemplo no código:** Montagem de caixa de produtos compostos e cálculo de preço total.
-* 📁 `src/structural/composite/`
+
 
 #### 3. Decorator
 * **Ideia chave:** Envelopa o objeto para adicionar recursos sem herança.
 * **Problema que resolve:** Adiciona novas responsabilidades a um objeto de forma dinâmica sem alterar a classe original, evitando explosão de subclasses via herança.
 * **Exemplo no código:** Envio de notificações combinadas (E-mail + SMS + WhatsApp).
-* 📁 `src/structural/decorator/`
 
 ---
 
@@ -52,7 +51,6 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 * **Ideia chave:** Delega a instanciação (`new`) para as subclasses.
 * **Problema que resolve:** Desacopla o código principal da criação de objetos concretos, fazendo com que ele dependa apenas de interfaces ou abstrações.
 * **Exemplo no código:** Gerador e exportador de relatórios (`PDF`, `CSV`, `Excel`).
-* 📁 `src/creational/factory_method/`
 
 ---
 
