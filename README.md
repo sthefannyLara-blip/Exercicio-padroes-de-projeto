@@ -15,7 +15,6 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 1. **Problema do Mundo Real:** Um cenário prático do dia a dia de desenvolvimento.
 2. **Implementação Limpa:** Solução aplicando o padrão ideal.
 
-
 ---
 
 ## 🏗️ Padrões Implementados
@@ -26,8 +25,6 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 * **Ideia chave:** Troca de algoritmos em tempo de execução.
 * **Problema que resolve:** Elimina estruturas extensas de `if/else` ou `switch` ao isolar cada regra de negócio em sua própria classe. Permite adicionar novas regras sem alterar o código existente (**Princípio Aberto/Fechado**).
 
-
-
 ---
 
 ### 📐 Estruturais (Structural)
@@ -36,21 +33,29 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 * **Ideia chave:** Árvore onde item único e grupo usam a mesma interface.
 * **Problema que resolve:** Permite tratar objetos individuais e coleções de objetos de maneira uniforme em estruturas hierárquicas (tipo pastas e arquivos).
 
-
-
 #### 3. Decorator
 * **Ideia chave:** Envelopa o objeto para adicionar recursos sem herança.
 * **Problema que resolve:** Adiciona novas responsabilidades a um objeto de forma dinâmica sem alterar a classe original, evitando explosão de subclasses via herança.
 
+#### 4. Adapter
+* **Ideia chave:** Tradutor entre interfaces incompatíveis.
+* **Problema que resolve:** Permite que classes com interfaces incompatíveis trabalhem juntas (como integrar bibliotecas de terceiros ou sistemas legados sem alterar o código original).
 
 ---
 
 ### 🏭 Criacionais (Creational)
 
-#### 4. Factory Method
+#### 5. Factory Method
 * **Ideia chave:** Delega a instanciação (`new`) para as subclasses.
 * **Problema que resolve:** Desacopla o código principal da criação de objetos concretos, fazendo com que ele dependa apenas de interfaces ou abstrações.
 
+#### 6. Singleton
+* **Ideia chave:** Instância única global com construtor privado.
+* **Problema que resolve:** Impede a criação de múltiplos objetos quando o sistema exige um único ponto central de acesso a um recurso (ex: conexões de banco de dados, logs).
+
+#### 7. Abstract Factory
+* **Ideia chave:** Fábrica para famílias de objetos relacionados.
+* **Problema que resolve:** Permite criar conjuntos de produtos compatíveis sem se acoplar às suas classes concretas (ex: componentes gráficos de um tema Light ou Dark).
 
 ---
 
@@ -61,5 +66,7 @@ Este repositório funciona como um **laboratório prático hands-on**. Cada mód
 | **Strategy** | Comportamental | Alterna regras de negócio dinamicamente sem usar `if/else`. |
 | **Composite** | Estrutural | Trata um item individual ou um grupo deles com o mesmo comando. |
 | **Decorator** | Estrutural | Adiciona "camadas" de funcionalidade ao redor de um objeto existente. |
+| **Adapter** | Estrutural | Traduz a interface de uma classe para o formato que seu sistema espera. |
 | **Factory Method** | Criacional | Passa a responsabilidade do `new` para subclasses especializadas. |
-
+| **Singleton** | Criacional | Garante que exista apenas uma única instância da classe em toda a aplicação. |
+| **Abstract Factory** | Criacional | Cria famílias inteiras de objetos compatíveis sem especificar classes concretas. |
